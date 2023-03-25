@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -L https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar -o phar-composer.phar
+curl -L -k https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar -o phar-composer.phar
 composertool=$(pwd)/phar-composer.phar
 version="dev"
 date=`date "+%Y%m%d-%H%M%S"`
