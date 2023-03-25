@@ -24,7 +24,7 @@ apt-get install -yqq nodejs
 ####################################################################
 # python dependencies
 pip3 install --upgrade pip setuptools wheel
-pip2 install --upgrade pip setuptools wheel
+pip2 install --upgrade "pip < 21.0" "setuptools == 44.0.0" "wheel == 0.33.0"
 # FIXME: How do I clear Bash's cache of paths to executables?
 # https://unix.stackexchange.com/questions/5609/how-do-i-clear-bashs-cache-of-paths-to-executables
 hash -r
